@@ -1,8 +1,11 @@
+/* @import "https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"; */
+
 .mapContainer {
   flex: 1;
   height: 100%;
   background-color: var(--color-dark--2);
   position: relative;
+  overflow-x: hidden;
 }
 
 .map {
